@@ -1,7 +1,7 @@
 # DeepMA
 Raman spectra contain abundant information from molecules but are difficult to analyze, especially for the mixtures. Deep-learning-based Mixture Analysis (DeepMA) has been proposed for the problem of mixture analysis. Convolution Neural Network (CNN) models have been established to predict the presence of the components in the mixtures.
 ----------
-![](https://raw.githubusercontent.com/xiaqiong/DeepMA/master/DeepMA.png )
+![](https://raw.githubusercontent.com/xiaqiong/DeepMA/master/Figure%201.jpg )
 
 ----------
 
