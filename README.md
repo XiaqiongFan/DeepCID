@@ -3,7 +3,6 @@ Raman spectra contain abundant information from molecules but are difficult to a
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/xiaqiong/DeepMA/master/Flowchart%20of%20DeepMA.jpg" width=403 height=316 />
-Figure 1. The flowchart of DeepMA
 </div>
 
 # Installation
