@@ -1,6 +1,6 @@
 # DeepMA
 Raman spectra contain abundant information from molecules but are difficult to analyze, especially for the mixtures. Deep-learning-based Mixture Analysis (DeepMA) has been proposed for the problem of mixture analysis. Convolution Neural Network (CNN) models have been established to predict the presence of the components in the mixtures.
-----------
+<img src="https://raw.githubusercontent.com/xiaqiong/DeepMA/master/Flowchart%20of%20DeepMA.jpg" width=403 height=316 />
 ![](https://raw.githubusercontent.com/xiaqiong/DeepMA/master/Flowchart%20of%20DeepMA.jpg )
 
 ----------
@@ -32,13 +32,13 @@ pip install Matplotlib
 
 # Clone the repo and run it directly
 
-[git clone](https://github.com/xiaqiong/DeepMA.git) 
+[git clone at：https://github.com/xiaqiong/DeepMA.git](https://github.com/xiaqiong/DeepMA.git) 
 
 # Download the model and run directly
 
 Since the model exceeded the limit, we have uploaded all the models and the  information of mixtures to the Baidu SkyDrive.
 
-[Download](https://pan.baidu.com/s/1PxuZUMD5VCgzXmY3e_RjKQ) 
+[Download at: https://pan.baidu.com/s/1PxuZUMD5VCgzXmY3e_RjKQ](https://pan.baidu.com/s/1PxuZUMD5VCgzXmY3e_RjKQ) 
 
 # Contact
 
