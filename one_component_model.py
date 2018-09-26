@@ -15,16 +15,6 @@ import os
 tf.reset_default_graph()
 # Remove previous Tensors and Operations
  
- 
-def compute_accuracy(v_xs,v_ys):
-    global prediction
-    y_pre = sess.run(prediction,feed_dict={xs:v_xs,keep_prob : 1})
-   # print(y_pre)
-    correct_prediction = tf.equal(tf.argmax(y_pre,1),tf.argmax(v_ys,1))
-    accuracy = tf.reduce_mean(tf.cast(correct_prediction,tf.float32))
-    result = sess.run(accuracy,feed_dict={xs:v_xs,ys:v_ys,keep_prob : 1})
-    return result ##百分比    
-
 def accuracy(predictions, labels):
   return (100.0 * np.sum(np.argmax(predictions, 1) == np.argmax(labels, 1))
           / predictions.shape[0])
@@ -48,7 +38,7 @@ def max_pool_1x2(x):
 xs= tf.placeholder(tf.float32,[None,881],name='xs') 
 ys= tf.placeholder(tf.float32,[None,2])
 keep_prob = tf.placeholder(tf.float32,name='keep_prob')
-x_image = tf.reshape(xs,[-1,1,881,1])#1:channl(黑白)
+x_image = tf.reshape(xs,[-1,1,881,1])
 
 #print(x_image.shape)#[n_sampless,28,28,1]
 
