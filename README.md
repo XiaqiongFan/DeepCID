@@ -1,8 +1,8 @@
-# DeepMA
-Raman spectra contain abundant information from molecules but are difficult to analyze, especially for the mixtures. Deep-learning-based Mixture Analysis (DeepMA) has been proposed for the problem of mixture analysis. Convolution Neural Network (CNN) models have been established to predict the presence of the components in the mixtures.
+# DeepCID
+Raman spectra contain abundant information from molecules but are difficult to analyze, especially for the mixtures. Deep-Learning-Based Components Identification for Raman Spectroscopy (DeepCID) has been proposed for the problem of components identification. Convolution Neural Network (CNN) models have been established to predict the presence of the components in the mixtures.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/xiaqiong/DeepMA/master/Flowchart%20of%20DeepMA.jpg" width=403 height=316 />
+<img src="https://raw.githubusercontent.com/xiaqiong/DeepCID/master/Flowchart%20of%20DeepCID.jpg" width=403 height=316 />
 </div>
 
 # Installation
@@ -32,7 +32,7 @@ pip install Matplotlib
 
 # Clone the repo and run it directly
 
-[git clone at：https://github.com/xiaqiong/DeepMA.git](https://github.com/xiaqiong/DeepMA.git) 
+[git clone at：https://github.com/xiaqiong/DeepCID.git](https://github.com/xiaqiong/DeepCID.git) 
 
 # Download the model and run directly
 
