@@ -38,7 +38,7 @@ pip install Matplotlib
 
 Since the model exceeded the limit, we have uploaded all the models and the  information of mixtures to the Baidu SkyDrive.
 
-[Download at: https://pan.baidu.com/s/1PxuZUMD5VCgzXmY3e_RjKQ](https://pan.baidu.com/s/1PxuZUMD5VCgzXmY3e_RjKQ) 
+[Download at: https://pan.baidu.com/s/1I0WMEvKvPNicy-i4Ru6uHQ](https://pan.baidu.com/s/1I0WMEvKvPNicy-i4Ru6uHQ) 
 
 # Contact
 
