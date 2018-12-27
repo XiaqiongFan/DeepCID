@@ -2,7 +2,7 @@
 Raman spectra contain abundant information from molecules but are difficult to analyze, especially for the mixtures. Deep-Learning-Based Components Identification for Raman Spectroscopy (DeepCID) has been proposed for the problem of components identification. Convolution Neural Network (CNN) models have been established to predict the presence of the components in the mixtures.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/xiaqiong/DeepCID/master/Flowchart%20of%20DeepCID.jpg" width=403 height=316 />
+<img src="https://raw.githubusercontent.com/xiaqiong/DeepCID/master/Flowchart.jpg" width=403 height=316 />
 </div>
 
 # Installation
