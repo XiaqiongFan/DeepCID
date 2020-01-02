@@ -48,6 +48,9 @@ Run the file 'one-component-model.py'.The corresponding example data have been u
 
 Run the file 'DeepCID.py'.An example mixture data have been uploaded at Baidu SkyDrive (named  'mixture.npy', 'label.npy' and 'namedata.csv').Download the model and these example data，DeepCID can be reload and predict easily.
 
+# Paper
+[Paper](https://pubs.rsc.org/en/content/articlehtml/2019/an/c8an02212g)
+
 # Contact
 
 Zhi-Min Zhang: zmzhang@csu.edu.cn
