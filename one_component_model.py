@@ -70,8 +70,11 @@ cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits = 
 train_step = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy)
 saver = tf.train.Saver()
 
-compound = 166
-datafile1 =u'E:/my/Roman/Construct_mixture_raw/'+str(compound)+'component.npy'
+
+path = u'E:/DeepCID'
+compound = 0
+
+datafile1 = path+'/augmented_data/'+str(compound)+'component.npy'
 X = np.load(datafile1)
 Xtrain0 = X[0:15000]
 Xvalid0 = X[15000:17500]
@@ -81,7 +84,7 @@ Xtrain = scaler.transform(Xtrain0)
 Xvalid = scaler.transform(Xvalid0)
 Xtest = scaler.transform(Xtest0)
 
-datafile2 =u'E:/my/Roman/Construct_mixture_raw/'+str(compound)+'label.npy'
+datafile2 = path+'/augmented_data/'+str(compound)+'label.npy'
 Y1 = np.load(datafile2) 
 Y2 = np.ones((Y1.shape)) - Y1
 Y = np.concatenate((Y1,Y2),axis=1)
