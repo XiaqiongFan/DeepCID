@@ -40,6 +40,14 @@ Since the model exceeded the limit, we have uploaded all the models and the  inf
 
 [Download at: https://pan.baidu.com/s/1I0WMEvKvPNicy-i4Ru6uHQ](https://pan.baidu.com/s/1I0WMEvKvPNicy-i4Ru6uHQ) 
 
+**1.Training your moedl**
+
+Run the file 'one-component-model.py'.The corresponding example data have been uploaded at [https://pan.baidu.com/s/1Q0QeHirzmBXVJZVqBx58Bw](https://pan.baidu.com/s/1Q0QeHirzmBXVJZVqBx58Bw) 
+
+**2.Predict mixture spectra data**
+
+Run the file 'DeepCID.py'.An example mixture data have been uploaded at Baidu SkyDrive (named  'mixture.npy', 'label.npy' and 'namedata.csv').
+
 # Contact
 
 Zhi-Min Zhang: zmzhang@csu.edu.cn
