@@ -17,22 +17,23 @@ def accuracy(predictions, labels):
           / predictions.shape[0])  
 
 if __name__ == '__main__':
+    path = u'E:/DeepCID'
     #Load the mixture spectrum, its' labels and components information 
-    datafile1 =u'E:/DeepCID/mixture.npy'
+    datafile1 = path+'/mixture.npy'
     Xtest = np.load(datafile1) 
 
-    datafile2 =u'E:/DeepCID/label.npy'
+    datafile2 = path+'/label.npy'
     label = np.load(datafile2)   
 
     n = label.shape[0]
     
-    csv_reader = csv.reader(open('E:/DeepCID/namedata.csv', encoding='utf-8'))
+    csv_reader = csv.reader(open( path+'/namedata.csv', encoding='utf-8'))
     names = [row for row in csv_reader]    
     ypred = np.zeros((n*Xtest.shape[0],2))
     
   
     # Set the root directory of models and reload the models one by one 
-    root = "E:/DeepCID/model"
+    root = path+'/model'
     list_dirs = os.walk(root) 
     i=0
     for root, dirs, files in list_dirs: 
