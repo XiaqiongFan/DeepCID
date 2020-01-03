@@ -38,11 +38,11 @@ pip install Matplotlib
 
 Since the model exceeded the limit, we have uploaded all the models and the  information of mixtures to the Baidu SkyDrive and Google driver.
 
-[Download at: Baidu SkyDrive](https://pan.baidu.com/s/1I0WMEvKvPNicy-i4Ru6uHQ) or [Google driver](https://drive.google.com/drive/folders/1DzMqiJRPDaLn2PcFW_myY_p0PO_VVEpS?usp=sharing)
+Download at: [Baidu SkyDrive](https://pan.baidu.com/s/1I0WMEvKvPNicy-i4Ru6uHQ) or [Google driver](https://drive.google.com/drive/folders/1DzMqiJRPDaLn2PcFW_myY_p0PO_VVEpS?usp=sharing)
 
 **1.Training your model**
 
-Run the file 'one-component-model.py'.The corresponding example data have been uploaded at [https://pan.baidu.com/s/1Q0QeHirzmBXVJZVqBx58Bw](https://pan.baidu.com/s/1Q0QeHirzmBXVJZVqBx58Bw) 
+Run the file 'one-component-model.py'.The corresponding example data have been uploaded to the folder named 'augmented data'.
 
 **2.Predict mixture spectra data**
 
